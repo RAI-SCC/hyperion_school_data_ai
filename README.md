@@ -68,10 +68,5 @@ figures/
 ## Dataset
 
 The logistic-regression example uses the breast-cancer dataset provided
-by scikit-learn. It is a real binary classification dataset with
-numerical input features, making it suitable for demonstrating
-`Dataset`, `DataLoader`, batches, train/test splits, and binary
-classification without introducing a hand-written exam example.
+by scikit-learn.
 
-The feature standardization is fitted only on the training split to
-avoid leaking information from the test set.
